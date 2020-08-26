@@ -12,6 +12,7 @@ The main resource are students. A Student object has attributes such as unique i
 
 1: Creating  A record : Create a new student 
 •	Request Header
+
  **CREATE****:**  https://www.abcschool.com/student/createStudent
 
     {
@@ -25,6 +26,7 @@ The main resource are students. A Student object has attributes such as unique i
     }
 
 •	Response Header
+
 HTTP response code – 201 Created
 
     {
@@ -40,6 +42,7 @@ HTTP response code – 201 Created
 
 2: Getting  A record : Get a student by giving student id
 •	Request Header
+
 **GET** **:**  https://www.abcschool.com/student/1
 
     {
@@ -53,6 +56,7 @@ HTTP response code – 201 Created
     }
 
 •	Response Header
+
 HTTP response code – 200 OK
 
     {
@@ -68,9 +72,11 @@ HTTP response code – 200 OK
 
 3: Getting all the records: Get all the records of all the semesters in a student table
 •	Request Header
+
 ****GET**:** https://www.abcschool.com/student 
 
 •	Response Header
+
 HTTP response code – 200 OK
 
     [
@@ -108,6 +114,7 @@ HTTP response code – 200 OK
 
 4: Updating A record  Updating a student semester by giving student id
 •	Request Header
+
 **UPDATE:** https://www.abcschool.com/student/2
 
     {
@@ -122,6 +129,7 @@ HTTP response code – 200 OK
     }
 
 •	Response Header
+
 HTTP response code – 201 Created
 
     {
