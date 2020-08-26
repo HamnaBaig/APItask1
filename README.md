@@ -15,7 +15,7 @@ The main resource are students. A Student object has attributes such as unique i
  **CREATE****:**  https://www.abcschool.com/student/createStudent
 
     {
-         ("id", 1);
+             ("id", 1);
     		 ("name", "Omer");
     		 ("gender", "M");
     		 ("address", "Australia");
@@ -28,7 +28,7 @@ The main resource are students. A Student object has attributes such as unique i
 HTTP response code – 201 Created
 
     {
-         ("id", 1);
+             ("id", 1);
     		 ("name", "Omer");
     		 ("gender", "M");
     		 ("address", "Australia");
@@ -43,7 +43,7 @@ HTTP response code – 201 Created
 **GET** **:**  https://www.abcschool.com/student/1
 
     {
-         ("id", 1);
+             ("id", 1);
     		 ("name", "Omer");
     		 ("gender", "M");
     		 ("address", "Australia");
@@ -56,7 +56,7 @@ HTTP response code – 201 Created
 HTTP response code – 200 OK
 
     {
-         ("id", 1);
+             ("id", 1);
     		 ("name", "Omer");
     		 ("gender", "M");
     		 ("address", "Australia");
@@ -75,7 +75,7 @@ HTTP response code – 200 OK
 
     [
     {
-         ("id", 1);
+             ("id", 1);
     		 ("name", "Omer");
     		 ("gender", "M");
     		 ("address", "Australia");
@@ -84,7 +84,7 @@ HTTP response code – 200 OK
     		 ("numberOfCourses", "6");
     }
     {
-         ("id", 2);
+             ("id", 2);
     		 ("name", "Hamna");
     		 ("gender", "F");
     		 ("address", "United STATES");
@@ -112,7 +112,7 @@ HTTP response code – 200 OK
 
     {
     
-         ("id", 2);
+             ("id", 2);
     		 ("name", "Hamna");
     		 ("gender", "F");
     		 ("address", "United STATES");
@@ -126,7 +126,7 @@ HTTP response code – 201 Created
 
     {
     
-         ("id", 2);
+             ("id", 2);
     		 ("name", "Hamna");
     		 ("gender", "F");
     		 ("address", "United STATES");
@@ -137,10 +137,13 @@ HTTP response code – 201 Created
 
 
 5: Deleting a record : Delete the Address by giving the student id
-•	Reequest Header
+•	Request Header
+
 **DELETE:** https://www.abcschool.com/student/1
+
 •	Response Header
 HTTP response code – 200 OK / 204 No Content
+
 
 
 
