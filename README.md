@@ -142,6 +142,7 @@ HTTP response code – 201 Created
 **DELETE:** https://www.abcschool.com/student/1
 
 •	Response Header
+
 HTTP response code – 200 OK / 204 No Content
 
 
