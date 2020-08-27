@@ -11,6 +11,7 @@ The main resource are students. A Student object has attributes such as unique i
 ## **APIs for Students in School**
 
 1: Creating  A record : Create a new student 
+
 •	Request Header
 
  **CREATE****:**  https://www.abcschool.com/student/createStudent
@@ -41,6 +42,7 @@ HTTP response code – 201 Created
 
 
 2: Getting  A record : Get a student by giving student id
+
 •	Request Header
 
 **GET** **:**  https://www.abcschool.com/student/1
@@ -71,6 +73,7 @@ HTTP response code – 200 OK
 
 
 3: Getting all the records: Get all the records of all the semesters in a student table
+
 •	Request Header
 
 ****GET**:** https://www.abcschool.com/student 
@@ -113,6 +116,7 @@ HTTP response code – 200 OK
     ]
 
 4: Updating A record  Updating a student semester by giving student id
+
 •	Request Header
 
 **UPDATE:** https://www.abcschool.com/student/2
@@ -145,6 +149,7 @@ HTTP response code – 201 Created
 
 
 5: Deleting a record : Delete the Address by giving the student id
+
 •	Request Header
 
 **DELETE:** https://www.abcschool.com/student/1
